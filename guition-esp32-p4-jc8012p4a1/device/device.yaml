@@ -97,13 +97,9 @@ display:
     model: JC1060P470
     id: tft_display
     reset_pin: GPIO05
-    rotation: 90
     auto_clear_enabled: false
     update_interval: never
     color_order: RGB
-    dimensions:
-      width: 600
-      height: 1024
 
 touchscreen:
   - platform: gt911

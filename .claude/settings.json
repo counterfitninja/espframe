@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(esphome version:*)",
-      "Bash(pip show:*)"
+      "Bash(pip show:*)",
+      "Bash(PLATFORMIO_PYTHON_PATH=/c/Users/daveb/scoop/apps/python312/current/python.exe esphome compile guition-esp32-p4-jc8012p4a1/esphome.yaml)"
     ]
   }
 }
