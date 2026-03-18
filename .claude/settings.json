@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(esphome version:*)",
+      "Bash(pip show:*)"
+    ]
+  }
+}
