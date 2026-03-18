@@ -94,19 +94,19 @@ i2c:
 
 display:
   - platform: mipi_dsi
-    model: JC8012P4A1
+    model: JC1060P470
     id: tft_display
-    reset_pin: GPIO27
+    reset_pin: GPIO05
     rotation: 90
     auto_clear_enabled: false
     update_interval: never
     color_order: RGB
     dimensions:
-      width: 800
-      height: 1280
+      width: 600
+      height: 1024
 
 touchscreen:
-  - platform: gsl3680
+  - platform: gt911
     id: tft_touch
     display: tft_display
     reset_pin: GPIO22
